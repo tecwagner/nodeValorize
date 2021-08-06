@@ -18,11 +18,11 @@
 
 - Cadastro de Elogios
 
-  [ ] Não será permitido o usuário inserir um elogio para si mesmo.
+  [x] Não será permitido o usuário inserir um elogio para si mesmo.
 
-  [ ] Não será permitido inserir elogio para usuário inválidos.
+  [x] Não será permitido inserir elogio para usuário inválidos.
 
-  [ ] O usuário precisa está authenticado na aplicação.
+  [x] O usuário precisa está authenticado na aplicação.
 
 ## Conceitos
 
@@ -121,3 +121,11 @@
 ## Para geração de uma senha secreta do usuário usaremos MD5 generator
 
 - https://www.md5hashgenerator.com/
+
+## Melhorias na aplicação
+
+- Criar um serviço de envio de e-mail para pessoa notificada.
+- Criar documentação no swagger.
+- Hospedar no heroku
+- Criar erros customizado
+- Add morga para logs
