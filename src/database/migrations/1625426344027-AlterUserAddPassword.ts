@@ -13,6 +13,6 @@ export class AlterUserAddPassword1625426344027 implements MigrationInterface {
   }
 
   public async down(queryRunner: QueryRunner): Promise<void> {
-      await queryRunner.dropColumn("users", "password")
+    await queryRunner.dropColumn("users", "password");
   }
 }
